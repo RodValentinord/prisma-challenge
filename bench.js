@@ -1,7 +1,6 @@
 // bench.js
 const autocannon = require('autocannon');
 
-// configurações de carga
 const config = {
   url: 'http://localhost:3000/api/users',
   connections: 10,     // conexões concorrentes
